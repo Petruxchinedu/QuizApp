@@ -1,0 +1,24 @@
+button{
+  border: 1px solid black;
+  width: 90px;
+  height: 90px;
+  color: red;
+font-size: 30px;
+}
+.goo{
+  display: flex;
+  overflow: hidden;
+}
+
+#btn1,#btn4,#btn7{
+  border-left: none;
+}
+#btn3,#btn6,#btn9{
+  border-right: none;
+}
+#btn1,#btn2,#btn3{
+  border-top: none;
+}
+#btn7,#btn8,#btn9{
+  border-bottom: none;
+}

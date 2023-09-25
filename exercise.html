@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // const nums = [10,20,30]
+    // nums[nums.length-1] = 99;
+    // console.log(nums)
+
+    // function getLastValue(get){
+    // return get[get.length-1]
+    // }
+    // console.log(getLastValue([1,20,22,24,5]))
+    // console.log(getLastValue(['hi','hello', 'good']))
+
+    // function arraySwap(array){
+    //   return array.reverse(array)
+    // }
+    // console.log(arraySwap([1,20,22,24,5]))
+    // console.log(arraySwap(['hi','hello', 'good']))
+
+    // for(let i = 0; i<=10; i++){
+    //   if(i%2 === 0) console.log(i)
+    // }
+    // for(let i = 5; i>=0; i--){
+    //  console.log(i)
+    // }
+
+    // let game = [1,2,3];
+     let addOne = [-2,-1,0, 99];
+     let multiplyArray = [];
+    // let multiplArray = [];
+
+    // for(let i= 0; i<game.length; i++){
+    //   let multi = game[i]
+    //   multiplyArray.push(multi * 2)
+    // }
+    // console.log(multiplyArray)
+  //    for(let i= 0; i<addOne.length; i++){
+  //   let multi = addOne[i]
+  //      multiplyArray.push(multi + 1)
+  //    }
+  //  console.log(multiplyArray)
+
+// const array = [1,2,3]
+// let num = 2;
+let multiplArray =[]
+    function addNum(array,num){
+      for(let i = 0; i < array.length; i++){
+        let multi = array[i];
+        multiplArray.push(multi + num)
+      } 
+    console.log(multiplArray)
+     }
+    addNum([1,2,3], 2)
+    addNum([1,2,3], 3)
+    addNum([-2,-1,0,99], 2)
+  // </script>
+</body>
+</html>

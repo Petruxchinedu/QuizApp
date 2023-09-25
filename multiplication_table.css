@@ -1,0 +1,61 @@
+#out{
+  width: 10px;
+  margin-right: 25px;
+}
+#out1{
+  width: 10px;
+  margin-right: 25px;
+}
+#out2{
+  width: 10px;
+  margin-right: 25px;
+}
+#out3{
+  width: 10px;
+  margin-right: 25px;
+}
+#out4{
+  width: 10px;
+  margin-right: 25px;
+}
+#out5{
+  width: 10px;
+  margin-right: 25px;
+}
+#out6{
+  width: 10px;
+  margin-right: 25px;
+}
+#out7{
+  width: 10px;
+  margin-right: 25px;
+}
+#out8{
+  width: 10px;
+  margin-right: 25px;
+}
+#out9{
+  width: 10px;
+  margin-right: 25px;
+  padding-left: 10px;
+}
+#outel1{
+  width: 10px;
+  margin-right: 25px;
+  padding-left: 10px;
+}
+#outel2{
+  width: 10px;
+  margin-right: 25px;
+  padding-left: 10px;
+}
+#output{
+  background-color: red;
+  margin-bottom: 0;
+  letter-spacing: 11.5px;
+  /* padding: 0px 80px; */
+}
+section{
+  display: flex;
+  margin-top: 0px;
+}

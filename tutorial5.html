@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <p>To do list</p>
+  <input type="text" placeholder="Todoname" id="td">
+  <button onclick="addTodo()">Add</button>
+  <div id="par"></div> 
+
+
+  <script>
+     const todoList = []
+     function renderTodoList(){
+
+       let todoListHTML = ''
+       for(let i = 0; i < todoList.length; i++){
+         const todo = todoList[i];
+         let html = `<p>${todo}<p>`
+          todoListHTML += html
+        }
+        console.log(todoListHTML)
+  
+      let para = document.getElementById('par').innerHTML = todoListHTML
+     }
+
+     function addTodo(){
+       let input = document.getElementById('td')
+       let name = input.value;
+       todoList.push(name);
+    
+       input.value = '';
+       renderTodoList();
+     }
+    
+
+    //SECOND QUESTION USIN LOOP IN AN ARRAY
+    // const todoList= [
+    //   'car','boy','soap','egg',
+    // ]
+    // for(let i = 0; i<= todoList.length-1; i++){
+    //   let value = todoList[i]
+    //   console.log(value);
+    // }
+
+   // THIRD QUESTION
+  //   const num = [1,2,3];
+  //   let total = 0;
+
+  //   for(let i = 0; i < num.length; i++){ 
+  //     const sum=num[i]; 
+  //     total +=sum; } 
+  //     console.log(total)
+
+  // const numDoubled = []
+  // for(let i = 0; i< num.length; i++){
+  //   numDoubled.push(num[i] * 2)
+  // }
+  // console.log(numDoubled)
+  </script>
+</body>
+</html>

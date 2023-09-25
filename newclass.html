@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="newClass.css">
+</head>
+<body>
+  <nav>
+    <div id="logo">image</div>
+    <div id="butto">
+      <a href="#">Home</a>
+      <a href="#">about</a>
+      <a href="#">contact</a>
+      <a href="#">Sign Out</a>
+    </div>
+    <span>&#9776;</span>
+  </nav>
+  <script>
+    var tee = document.createElement("h2")
+    var teeCont = document.createTextNode('X')
+    tee.appendChild(teeCont);
+    document.querySelector('body').appendChild(tee)
+    var sola = document.querySelector('span');
+    tee.id = 'dos'
+    var peter = document.querySelector('#butto')
+
+
+    sola.onclick = function() {
+      sola.style.display = "none";
+      tee.style.display= 'block';
+      tee.style.marginLeft= '330px'
+      tee.style.marginTop= '-30px'
+      peter.style.display = "block";
+      peter.style.fontSize = '10px'
+      peter.style.marginTop = "px";
+      peter.style.marginLeft = "50px";
+    }
+     dos.style.display = "none"
+    tee.onclick= function greet(){
+      sola.style.display = "block";
+      dos.style.display = "none";
+      peter.style.display = "none"
+    }
+
+    // tee.onclick = function greet(){
+    //   sola.style.display = "block";
+    //   dos.style.display = "none";
+    //   peter.style.display = "none"
+      
+    // }
+  </script>
+</body>
+</html>

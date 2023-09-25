@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="greet">good morning</h1>
+  <button onclick="
+  sayGreet()
+  ">good morning</button>
+  <h1 id="ah"></h1>
+  <input id="inp" type="text"><br>
+  <button onclick="output()">submit</button>
+
+  <Script>
+    var say = document.getElementById('greet')
+
+    function sayGreet(){
+      say.innerHTML= 'good afternoon'
+    }
+
+
+    var write = document.getElementById('ah')
+    var input1 = document.getElementById('inp')
+
+    function output(){
+      write.innerHTML = input1.value
+    }
+  </Script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ea, reprehenderit repellendus nisi consequuntur aspernatur aperiam dolorum voluptate rem sequi quo tempore doloribus adipisci et, ex perspiciatis, numquam dicta quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nulla corporis culpa illum repellat tenetur nesciunt totam veniam ab eligendi nisi, veritatis necessitatibus sunt reiciendis quo asperiores sapiente blanditiis dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa dolores consequatur modi mollitia vel error sunt animi et aut vero laborum recusandae commodi quo quibusdam exercitationem libero possimus dicta?</p>
+  <p id="newP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores autem aut consectetur voluptatum exercitationem et eveniet nihil, sit dolor ex.</p>
+  <button id="btn" onclick="readMe()">Readme</button>
+  <button id="btn1" onclick="readLess()">ReadLess</button>
+</body>
+
+<script>
+  var Para = document.getElementById('newP')
+  Para.style.display = 'none';
+  var newBtn = document.getElementById('btn')
+  var newBtn2 = document.getElementById('btn1')
+  newBtn2.style.display = 'none'
+
+  function readMe(){
+    Para.style.display = "inline"
+    newBtn.style.display = 'none'
+    newBtn2.style.display = 'inline'
+  }
+
+  function readLess(){
+    Para.style.display = "none"
+    newBtn.style.display = 'inline'
+    newBtn2.style.display = 'none'
+  }
+</script>
+</html>

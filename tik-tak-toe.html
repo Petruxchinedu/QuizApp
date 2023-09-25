@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="tik-tak-toe.css">
+</head>
+
+<body>
+  <!-- <button class="" onclick="handleClik(event)">Click me</button><br/>   -->
+  <p id="par"></p>
+  <section>
+    <div>
+      <button class="square" id="id1" onclick="handleClick1(event)"></button>
+      <button class="square" id="id2" onclick="handleClick2(event)"></button>
+      <button class="square" id="id3" onclick="handleClick3(event)"></button>
+    </div>
+    <div>
+      <button class="square" id="id4" onclick="handleClick4(event)"></button>
+      <button class="square" id="id5" onclick="handleClick5(event)"></button>
+      <button class="square" id="id6" onclick="handleClick6(event)"></button>
+    </div>
+    <div>
+      <button class="square" id="id7" onclick="handleClick7(event)"></button>
+      <button class="square" id="id8" onclick="handleClick8(event)"></button>
+      <button class="square" id="id9" onclick="handleClick9(event)"></button>
+    </div>
+  </section>
+  <p id="par"></p>
+  <script>
+    function handleClik(e) {
+      console.log(e.srcElement.classname = "btn")
+      console.log(e.srcElement.parentElement)
+      console.log(e)
+    }
+    var btn = document.getElementById('btn')
+    var para = document.getElementById('par')
+    var id1 = document.getElementById('id1')
+    var id2 = document.getElementById('id2')
+    var id3 = document.getElementById('id3')
+    var id4 = document.getElementById('id4')
+    var id5 = document.getElementById('id5')
+    var id6 = document.getElementById('id6')
+    var id7 = document.getElementById('id7')
+    var id8 = document.getElementById('id8')
+    var id9 = document.getElementById('id9')
+
+    function handleClick1(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id1.innerHTML = "X"
+      } else {
+        id1.innerHTML = "O"
+      }
+    }
+
+    function handleClick2(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id2.innerHTML = "X"
+      } else {
+        id2.innerHTML = "O"
+      }
+    }
+
+    function handleClick3(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id3.innerHTML = "X"
+      } else {
+        id3.innerHTML = "O"
+      }
+    }
+
+    function handleClick4(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id4.innerHTML = "X"
+      } else {
+        id4.innerHTML = "O"
+      }
+    }
+
+    function handleClick5(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id5.innerHTML = "X"
+      } else {
+        id5.innerHTML = "O"
+      }
+    }
+
+    function handleClick6(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id6.innerHTML = "X"
+      } else {
+        id6.innerHTML = "O"
+      }
+    }
+
+    function handleClick7(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id7.innerHTML = "X"
+      } else {
+        id7.innerHTML = "O"
+      }
+    }
+
+    function handleClick8(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id8.innerHTML = "X"
+      } else {
+        id8.innerHTML = "O"
+      }
+    }
+
+    function handleClick9(e) {
+      if (Math.floor(Math.random() * 100) % 2 === 0) {
+        id9.innerHTML = "X"
+      } else {
+        id9.innerHTML = "O"
+      }
+    }
+    //  function handleClick(){
+
+    //    if(id1.innerHTML === "X" && id2.innerHTML === "X" && id3.innerHTML === "X"){
+    //     para.innerHTML = "PLAYER X WON"
+    //    } else if(id1.innerHTML === "O" && id2.innerHTML ==="O" && id3.innerHTML === "O"){
+    //     para.innerHTML = "PLAYER O WON"
+    //    }
+    //  }
+    //  var infoDispaly = document.getElementById('par')
+    //    let go = 'O'
+    //    infoDispaly.textContent = "O goes first"
+
+    //   function handleClick(e){
+    //      e.target.textContent = go;
+    //      go = go === "O"? "X" : "O"
+    //      infoDispaly.textContent = "it is now " + go + "'s go"
+
+    //       e.target.removeEventListener("click", handleClick)
+    //     checkScore()
+    //    }
+
+    //    function checkScore(){
+    //     const allBtn = document.querySelectorAll(".square")
+    //     const wiiningCombos = [
+    //       [0,1,2], [3,4,5], [6,7,8],
+    //       [0,3,6], [1,4,7], [2,5,8],
+    //       [0,4,8], [2,4,6]
+    //     ]
+
+    //     wiiningCombos.forEach(array => {
+    //       const circleWins = array.every(cell => allBtn[cell].firstChild?.classList.contains('O'))
+
+    //       if (circleWins){
+    //         infoDispaly.textContent = 'Circle wins'
+    //         allBtn.forEach(square => square.replaceWith(square.cloneNode(true)))
+    //         return
+    //       }
+    //     }
+    //     )
+    //     wiiningCombos.forEach(array => {
+    //       const crossWins = array.every(cell => allBtn[cell].firstChild?.classList.contains('X'))
+
+    //       if (crossWins){
+    //         infoDispaly.textContent = 'Cross wins'
+    //         allBtn.forEach(square => square.replaceWith(square.cloneNode(true)))
+    //         return
+    //       }
+    //     }
+    //     )
+    //    }
+  </script>
+</body>
+
+</html>

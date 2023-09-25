@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //map
+    var nums = [8,2,7,4]
+    // nums.map((num)=> {console.log(num + 2)}
+    // )
+     nums.forEach((num)=> {console.log(num + 2)}
+     )
+    //filter
+    var newNum = nums.filter((num)=>{
+      return num < 5  //will have a condition and return a new array
+    })
+    console.log(newNum)
+    var d = new Date().getSeconds()
+    console.log(d)
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <section class="main">
+  <h3>Username:</h3><input id="inp" placeholder="enter" />
+  <h3>Password:</h3><input id="inp2" />
+  <button id="btn" onclick="sumbit()">Submit</button>
+  <button id="btn1" onclick="handleClick()">Click</button>
+</section>
+  <script>
+    // var para = document.getElementById("ife")
+      
+       function sumbit(){
+        if(document.getElementById('inp').value && document.getElementById('inp2').value){
+          alert('form submitted')
+          document.getElementById('inp').value = ""
+          document.getElementById('inp2').value = ""
+        }else if(document.getElementById('inp').value){
+           alert('Password required')
+           document.getElementById('inp').value = ""
+        }else if(document.getElementById('inp2').value){
+           alert('Username required')
+        }
+        else{alert('empty input')}
+      }
+
+    function handleClick(){
+      document.querySelector("body").style.backgroundColor="black"
+    }
+  </script>
+</body>
+</html>

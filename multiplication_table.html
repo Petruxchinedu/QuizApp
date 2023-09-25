@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="multiplication_table.css">
+</head>
+<body>
+  <p id="output"></p>
+  <section>
+    <div id ="out"></div>
+    <div id ="out1"></div>
+    <div id ="out2"></div>
+    <div id ="out3"></div>
+    <div id ="out4"></div>
+    <div id ="out5"></div>
+    <div id ="out6"></div>
+    <div id ="out7"></div> 
+    <div id ="out8"></div> 
+    <div id ="out9"></div> 
+    <div id ="outel1"></div> 
+    <div id ="outel2"></div> 
+  </section>
+  
+  <script>
+    var outputEle = document.getElementById('output');
+    var outEl = document.getElementById('out')
+    var outEl1 = document.getElementById('out1')
+    var outEl2 = document.getElementById('out2')
+    var outEl3 = document.getElementById('out3')
+    var outEl4 = document.getElementById('out4')
+    var outEl5 = document.getElementById('out5')
+    var outEl6 = document.getElementById('out6')
+    var outEl7 = document.getElementById('out7')
+    var outEl8 = document.getElementById('out8')
+    var outEl9 = document.getElementById('out9')
+    var outEle1 = document.getElementById('outel1')
+    var outEle2 = document.getElementById('outel2')
+
+    for( var j=1; j<13; j++){ 
+     // outputEle.textContent += j + ' ';
+     outputEle.innerHTML = outputEle.innerHTML + j + " " 
+  }
+  for( var i=1; i<2; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl.innerHTML +=  (i * p) + " "
+    }
+  }
+  for( var i=2; i<3; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl1.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=3; i<4; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl2.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=4; i<5; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl3.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=5; i<6; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl4.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=6; i<7; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl5.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=7; i<8; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl6.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=8; i<9; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl7.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=9; i<10; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl8.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=10; i<11; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEl9.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=11; i<12; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEle1.innerHTML += ( i * p) + " "
+    }
+  }
+  for( var i=12; i<13; i++){
+    
+    for( var p= 2; p<13; p++){
+      outEle2.innerHTML += ( i * p) + " "
+    }
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(Download\ Color\ OS\ 3_0\ Stock\ Wallpapers\ [Full\ HD]\ _\ Gadgets\ Academy.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  background-position-y: top;
+}
+#grand{
+  display: flex;
+}
+
+ #btn2{
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  margin-top: 400px;
+  
+} 
+h1{
+  width: 500px;
+  margin-top: 200px;
+  color: white;
+  font-size: 50px;
+  margin-right: -500px;
+  margin-left: 250px;
+}
+ main{
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 400px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px;
+  
+} 
+div{
+  margin-left: 12px;
+}
+button{
+  width: 65px;
+  height: 50px;
+  padding: 0px 10px;
+  margin-left: 3px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: darkgray;
+}
+section{
+  margin-top: 50px;
+}
+#gas2{
+  width: 108px;
+}
+#ip{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  height: 60px;
+  background-color: #0a1c74ff;
+  border: 1px solid white;
+}
+#gpc{
+  color: #0a1c74ff;
+  background-color: darkgray;
+}
+#gpd{
+  color: #0a1c74ff;
+  background-color: darkgray;
+}
+#gpt{
+  background-color: #0a1c74ff;
+}
+#gap{
+  background-color: #0a1c74ff;
+}
+#gapx{
+  background-color: #0a1c74ff;
+}
+#gas2{
+  background-color: #0a1c74ff;
+}
+#gas{
+  background-color: #0a1c74ff;
+}
+#gpp{
+  color: #0a1c74ff;
+}
+#gpc1{
+  color: #0a1c74ff;
+}
+#gpd1{
+  color: #0a1c74ff;
+}
+#gpp1{
+  color: #0a1c74ff;
+}
+#gpt1{
+  background-color: #0a1c74ff;
+}

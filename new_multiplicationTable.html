@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="classnew.css" />
+  </head>
+  <body>
+  
+   
+    <input type="text" id="loopStart" />
+    <input type="text" id="loopEnd" />
+    <button onclick="multiTable()">Multiplication Table</button>
+    <div id="tab" style="display: flex; flex-wrap: wrap"></div>
+
+    <script>
+      // console.log(3 + 3);
+      // console.log("3" + "3");
+      // console.log("3" + 3);
+      // console.log(3+ +"3");
+      // console.log(3 + 3 - 3);
+      // console.log("3" + "3" - "3");
+
+     
+      function multiTable() {
+        var tableContain = document.getElementById("tab");
+        var loop = document.getElementById("loopStart").value;
+        var loopE = document.getElementById("loopEnd").value;
+        // tableContain.innerHTML = " ";
+        for (var i = 1; i <= loop; i++) {
+          var tableDiv = document.createElement("div");
+          tableDiv.style.margin = "10px";
+          tableDiv.style.border = "1px solid black";
+          tableDiv.style.textAlign = "center";
+          tableDiv.innerHTML = `<h3> ${i} Times Table </h3>`;
+
+          const tableList = document.createElement("ul");
+          tableList.style.listStyle = "none";
+          tableList.style.padding = "0";
+
+          for (var j = 1; j <= loopE; j++) {
+            const listItem = document.createElement("li");
+            listItem.innerHTML = `${i} x ${j} = ${i * j}`;
+            tableList.appendChild(listItem);
+          }
+          tableDiv.appendChild(tableList);
+          tableContain.appendChild(tableDiv);
+        }
+      }
+    </script>
+  </body>
+</html>

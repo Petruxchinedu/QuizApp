@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>conditional</title>
+</head>
+<p>
+
+  <!-- <button onclick="delT()" >Delete</button>
+  <input type="text" id="ede"> -->
+  <p id="ede"></p>
+  <button onclick="delT()">Delete</button>
+  <script>
+
+    // let weather = prompt('how is the weather')
+
+    // if(weather === 'rainy'){
+    //   console.log('ware your raincoat')
+    // } else{
+    //   console.log('waer ur sunglasses')
+    // }
+
+    // 
+    var num = [1,2,3,4,5];
+    var cancel = document.getElementById('ede');
+
+     function delT() {
+      cancel.innerHTML = num.pop(num[num.length-1])
+      cancel.innerHTML = num
+    }
+  </script>
+</body>
+</html>

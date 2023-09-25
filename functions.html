@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>funtions</title>
+</head>
+<body>
+  
+
+  <script>
+    // function convertToFarenheit(celsius){
+    //   console.log(celsius * 9/5) + 32;
+    // }
+
+    // convertToFarenheit(22);
+
+    const convertToFarenheit = (celsius) => console.log(celsius * 9/5) + 32;
+    convertToFarenheit(22)         /*  Arrow function with implict return*/
+
+
+
+    // function greeting(num1,num2){
+    //   sum = num1 * num2
+    //   console.log(sum)
+    // }
+    // greeting(4,6)
+    const addition = (num1, num2) => {
+      sum = num1 + num2
+      console.log(sum)
+    }
+    addition(4,6);  /*Arrow function with explict return*/
+
+    const addition1 = (num1, num2) => console.log(sum = num1 * num2)
+     addition1(4,6);
+    
+     const divide = (num2, num3) => console.log(div = num2 / num3)
+     divide(9,3)
+
+
+     const introducer = (name, color) => {
+        const declare = {
+          name: name,
+          color: color
+        }
+        console.log(call = `hi, my name is ${declare.name} , i wore a ${declare.color} shirt`)
+     }
+     introducer('peter', 'black')
+  </script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loop</title>
+</head>
+<body>
+  <script>
+//     const fruit = ['apple', 'mango', 1 ,2, false]
+//     for(i=0; i < fruit.length; i++){ //for loop
+//       console.log(fruit)
+//     }
+
+// //for loop(new method)
+//     for(const frui of fruit){
+//       console.log(frui)
+//     }
+
+/*array with for loop*/
+    // const numbers = [1,2,3,4,5,6]
+    // let result = []
+    // for(const number of numbers){
+    //   result.push(number * 2)
+    // } 
+    // console.log(result)
+
+
+    //using function and array with for loop to multiply numbers
+    // const double =(numbers) =>{
+    //   let result = []
+    //     for(const number of numbers){
+    //     result.push(number * 2)
+    //   } 
+    //   return result
+    // }
+    //console.log(double([1,2,3,4,5,6]))
+
+
+    //using function and array with for loop to square numbers 
+    // const double =(numbers) =>{
+    //   let result = []
+    //     for(const number of numbers){
+    //     result.push(number ** 2)
+    //   } 
+    //   return result
+    // }
+
+    // console.log(double([1,2,3,4,5,6]))
+
+    // const howManyLetters = () => {
+    //   const phrase = prompt('write ur phrase')
+    //   for(const letter in phrase) //gives u the items while FOR IN LOOP gives you the inedx 
+    //   console.log(letter)
+    // }
+    // howManyLetters()
+
+    // const sumArray = (numbers) => {
+    //   let result = 0;
+    //   for(const number of numbers){
+    //     console.log(number) 
+    //     result += number 
+    //   }
+    //   return { result }
+    // }
+    // const num = [1, 2, 3, 4]
+    // console.log(sumArray(num))
+
+
+
+  //   const max = (numbers) =>{
+  //     let result = numbers[0];
+
+  //     for(const number of numbers){
+  //       if (number > result){
+  //         result = number
+  //       }
+  //     }
+  //     return { result }  
+  //   }
+    
+  //  // console.log(max([1,2,3,4, 40, 5, 6, 8]))
+
+
+  //   const word = {
+  //     name: 'Peter',
+  //     Age: 25
+  //   }
+  //   for(let key in word)
+  //    // console.log(key, word[key])
+
+
+  //   //const phrase = ['red', 'green', 'blue']
+  //     for(let guy of phrase)
+  //     //console.log(guy)
+
+  //   function isLandscape(width, Height){
+  //     return(width > Height);
+  //   }
+  //   //console.log(isLandscape(800, 700))
+    
+    // function fizzBuzz(input) {
+    //   if ((input % 3 === 0) && (input % 5 === 0))
+    //   return 'fizzBuzz'
+      
+    //   if (typeof input !== 'number')
+    //     return 'Not a number';
+
+    //   if(input % 3 === 0)
+    //     return('fizz')
+
+    //   if (input % 5 === 0)
+    //     return('Buzz')
+
+
+    //   return input
+    // }
+    // console.log(fizzBuzz(7))
+
+    let result = [1, 2, 3, 4].map(number => number*2)
+    console.log(result)
+  </script>
+</body>
+</html>

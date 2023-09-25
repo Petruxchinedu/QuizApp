@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(card-soft-template-paper-report.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: white;
+  font-size: 60px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.first{
+  margin-left: 450px;
+}
+
+h5{
+  color: white;
+  margin-left: 120px;
+  font-weight: bold;
+}
+section{
+  display: inline-flex;
+  margin-top: 70px;
+  margin-left: 400px;
+}
+#ide{
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  color: red;
+}
+#ides{
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  color: red;
+}
+h6{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+#img1{
+  margin: 20px 0px 0px 0px;
+}
+#btn{
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: 550px;
+  font-size: 20px;
+  border: none;
+  color: red;
+}
+#new{
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+#new1{
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-left: 500px;
+  margin-top: 30px;
+}

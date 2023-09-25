@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+
+    <input type="number" id="inp">
+    <input type="number" id="inpu">
+  
+    <button onclick=book()>click me</button>
+    <p id="para"></p>
+  </main>
+  <!-- <main>
+  <p id="para2"></p>
+  <p id="para3"></p>
+  </main> -->
+  
+
+  <script>
+    function book() {
+      
+      var input= document.getElementById('inp').value;
+      var input1= document.getElementById('inpu').value;
+      var para = document.getElementById('para')
+      para.innerHTML = " "
+       for(var i= 1; i <= input; i++){
+          para.innerHTML = para.innerHTML + i + "times" 
+          // console.log('caf')
+          for(var p = 1; p <= input1; p++){
+            para.innerHTML =para.innerHTML + "<br/>"+ i + "*" + p + "=" + i * p + "<br/>"
+          }
+        }
+      }
+      // }
+      // for (var i = 2; i < 3;  i++){
+      //   for(var p = 1; p < 12; p++){
+      //     parag.innerHTML += i + "*" + p + "=" + (i * p) + "<br/>"
+      //   }
+      // }
+      // for (var i = 3; i < 4;  i++){
+      //   for(var p = 1; p < 12; p++){
+      //     parag.innerHTML += i + "*" + p + "=" + (i * p) + "<br/>"
+      //   }
+      // }
+      // for (var i = 4; i < 5;  i++){
+      //   for(var p = 1; p < 12; p++){
+      //     parag.innerHTML += i + "*" + p + "=" + (i * p) + "<br/>"
+      //   }
+      // }
+      // for (var i = 5; i < 6;  i++){
+      //   for(var p = 1; p < 12; p++){
+      //     parag.innerHTML += i + "*" + p + "=" + (i * p) + "<br/>"
+      //   }
+      // }
+    
+  
+  </script>
+</body>
+</html>

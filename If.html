@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input id="inp"/>
+  <select onchange="happy()" id="selec">
+    <option  value="sex">sex</option>
+    <option id="male" value="male">Male</option>
+    <option id="female" value="female">Female</option>
+  </select>
+  <p id="pp"></p>
+  <script>
+    // var coke;
+    // if(!coke){
+    //   console.log("welcome")
+    // }else {
+    //   console.log('dont')
+    // }
+       function happy(){
+        var see = document.getElementById("selec").value
+        console.log(see)
+        if(see == "male"){
+          document.getElementById("pp").innerHTML = "you are a male applicant"
+        }
+        else{
+          document.getElementById("pp").innerHTML = "you are a female applicant"
+        }
+      }
+  </script>
+</body>
+</html>

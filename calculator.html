@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div id="grand">
+  <head>
+    <h1>Devtrux: Calculator App User Interface Design+</h1>
+    <button id="btn2"><a href="scientificCalculator.html">Click Here</a></button>
+  </head> 
+    <main>
+      <p id="ip"></p>
+      <section>
+
+        <div class="first">
+          <button id="gpc">C</button>
+          <button id="gpd">D</button>
+          <button id="gpp">/</button>
+          <button id="gpt">*</button>
+        </div>
+        <div class="second">
+          <button id="gap1">7</button>
+          <button id="gap2">8</button>
+          <button id="gap3">9</button>
+          <button id="gap">-</button>
+        </div>
+        <div class="third">
+          <button id="gap4">4</button>
+          <button id="gap5">5</button>
+          <button id="gap6">6</button>
+          <button id="gapx">+</button>
+        </div>
+        <div class="fourth">
+          <button id="gap7">1</button>
+          <button id="gap8">2</button>
+          <button id="gap9">3</button>
+          <button id="gas">%</button>
+        </div>
+        <div class="fifth">
+          <button id="gas0">0</button>
+          <button id="gas1">.</button>
+          <button id="gas2">=</button>
+        </div>
+      </section>     
+    </main>
+  </div>   
+  
+</body>
+
+<script>
+  var cal = '';
+ var para = document.getElementById('gpc');
+ var par1 = document.getElementById('gpd');
+ var par2 = document.getElementById('gpp');
+ var par3 = document.getElementById('gpt');
+ var pag = document.getElementById('gap1');
+ var pag1 = document.getElementById('gap2');
+ var pag2 = document.getElementById('gap3');
+ var pag3 = document.getElementById('gap');
+ var pax = document.getElementById('gap4');
+ var pax1 = document.getElementById('gap5');
+ var pax2 = document.getElementById('gap6');
+ var pax3 = document.getElementById('gapx');
+ var paz = document.getElementById('gap7');
+ var paz1 = document.getElementById('gap8');
+ var paz2 = document.getElementById('gap9');
+ var paz3 = document.getElementById('gas');
+ var pat = document.getElementById('gas0');
+ var pat1 = document.getElementById('gas1');
+ var pat2 = document.getElementById('gas2');
+
+
+ var gun = document.getElementById('ip');
+ cal.id = 'goo'
+para.onclick = function (){
+  cal = ''
+  gun.innerHTML = cal 
+ }
+par1.onclick = function (){
+  cal = cal.slice(0,-1)
+  gun.innerHTML = cal
+}
+par2.onclick = function (){
+  cal = cal + ' / '
+  gun.innerHTML = cal
+}
+par3.onclick = function (){
+  cal +=  ' * '
+  gun.innerHTML = cal
+}
+pag.onclick = function (){
+  cal = cal + '7'
+  gun.innerHTML = cal 
+}
+pag1.onclick = function (){
+  cal = cal + '8';
+  gun.innerHTML = cal;
+}
+pag2.onclick = function (){
+  cal = cal + '9'
+  gun.innerHTML = cal;
+}
+pag3.onclick = function (){
+  cal = cal + ' - '
+  gun.innerHTML = cal
+}
+pax.onclick = function (){
+  cal= cal + '4'
+  gun.innerHTML = cal; 
+}
+pax1.onclick = function (){
+  cal = cal + '5'
+  gun.innerHTML = cal
+}
+pax2.onclick = function (){
+  cal = cal + '6'
+  gun.innerHTML = cal
+}
+pax3.onclick = function (){
+  cal = cal + ' + '
+  gun.innerHTML = cal
+}
+paz.onclick = function (){
+  cal = cal + '1'
+  gun.innerHTML = cal
+}
+paz1.onclick = function (){
+  cal = cal + '2'
+  gun.innerHTML =cal
+}
+paz2.onclick = function (){
+  cal = cal + '3'
+  gun.innerHTML = cal
+}
+paz3.onclick = function (){
+  cal = cal + ' % '
+  gun.innerHTML = cal
+}
+pat.onclick = function (){
+  cal = cal + '0'
+  gun.innerHTML = cal;
+}
+pat1.onclick = function (){
+  cal = cal + '.'
+  gun.innerHTML = cal
+}
+pat2.onclick = function (){
+  cal= eval(cal)
+  gun.innerHTML =cal
+}
+
+</script>
+</html>
